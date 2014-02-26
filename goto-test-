@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+  int t=0;
+  ENDLESS:
+  printf("%d\n",t);
+  if(t == 10){
+    goto END;
+  }
+  t++;
+  goto ENDLESS;
+  END:
+  return 0;
+}
