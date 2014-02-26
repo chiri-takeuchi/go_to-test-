@@ -4,7 +4,7 @@ int main(){
   int t=0;
   ENDLESS:
   printf("%d\n",t);
-  if(t == 10){
+  if(t > 10){
     goto END;
   }
   t++;
